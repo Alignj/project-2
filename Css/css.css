@@ -14,49 +14,87 @@ body{
 }
 
 .card{
-    width: 400px;
+    width: 370px;
     height: 100%;
     background-color: white;
     border-radius: 30px;
     border-top-left-radius: 370px;
-    overflow:hidden ;
+    overflow:hidde;
 
 }
 
 .card-head{
     width: 100%;
     height: 240px;
-    background-color: rgb(65, 65, 65);
-    display: flex;
-    
+    background-color: rgb(48, 48, 48);
 }
 
 .price1{
-    width: 100px;
-    height: 100px;
-    background-color:aqua;
+    width: 110px;
+    height: 110px;
+    background-color: #0095ff;
     display: flex;
     border-radius: 100%;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    left: 160px;
+    top: -45px;
+    font-size: 29px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 10px solid #00b1ff;
 }
 
 .price2{
-    width: 100px;
-    height: 100px;
-    background-color:aqua;
+    width: 110px;
+    height: 110px;
+    background-color:#f4bc41;
     display: flex;
     border-radius: 100%;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    top: -45px;
+    left: 840px;
+    color: white;
+    font-size: 29px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 10px solid #f8db49;
 }
 
 .price3{
-    width: 100px;
-    height: 100px;
-    background-color:aqua;
+    width: 110px;
+    height: 110px;
+    background-color: #5ac439;
     display: flex;
     border-radius: 100%;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    left: 1520px;
+    top: -45px;
+    color: white;
+    font-size: 29px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 10px solid #a6df45;
+}
+
+.basic{
+    color: white;
+    display: block;
+    position: absolute;
+    left: 200px;
+    top: 100px;
+}
+
+.per{
+    color: white;
+    display: block;
+    position: absolute;
+    top: 150px;
+    left: 150px;
 }
