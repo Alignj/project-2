@@ -1,6 +1,6 @@
 .container{
-    width: 90%;
-    height: 700px;
+    width: 1400px;
+    height: 675px;
     inset: 0;
     margin: auto;
     position: absolute;
@@ -20,13 +20,14 @@ body{
     border-radius: 30px;
     border-top-left-radius: 370px;
     overflow:hidden;
-
+    position: relative;
 }
 
 .card-head{
     width: 100%;
     height: 210px;
     background-color: rgb(48, 48, 48);
+    
 }
 
 .price1{
@@ -38,13 +39,14 @@ body{
     justify-content: center;
     align-items: center;
     position: absolute;
-    left: 168px;
+    left: 12%;
     top: -45px;
     font-size: 29px;
     font-weight: bold;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border: 10px solid #00b1ff;
+    z-index: 1;
 }
 
 .price2{
@@ -57,12 +59,13 @@ body{
     align-items: center;
     position: absolute;
     top: -45px;
-    left: 850px;
+    left: 49.5%;
     color: white;
     font-size: 29px;
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border: 10px solid #f8db49;
+    z-index: 1;
 }
 
 .price3{
@@ -74,19 +77,20 @@ body{
     justify-content: center;
     align-items: center;
     position: absolute;
-    left: 1535px;
+    left: 87%;
     top: -45px;
     color: white;
     font-size: 29px;
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border: 10px solid #a6df45;
+    z-index: 1;
 }
 
 .basic{
     display: block;
     position: absolute;
-    left: 160px;
+    left: 150px;
     top: 70px;
     font-size: 35px;
     font-family: Arial, Helvetica, sans-serif;
@@ -99,7 +103,7 @@ body{
     color:#f4bc41;
     display: block;
     position: absolute;
-    left: 800px;
+    left: 120px;
     top: 70px;
     font-size: 35px;
     font-family: Arial, Helvetica, sans-serif;
@@ -112,7 +116,7 @@ body{
     color:#5ac439;
     display: block;
     position: absolute;
-    left: 1500px;
+    left: 130px;
     top: 70px;
     font-size: 35px;
     font-family: Arial, Helvetica, sans-serif;
@@ -125,7 +129,7 @@ body{
     display: block;
     position: absolute;
     top: 130px;
-    left: 160px;
+    left: 150px;
     font-size: 25px;
     text-transform: uppercase;
     font-weight: 100;
@@ -136,7 +140,7 @@ body{
     color: white;
     display: block;
     position: absolute;
-    left: 830px;
+    left: 150px;
     top: 130px;
     font-size: 25px;
     text-transform: uppercase;
@@ -147,10 +151,33 @@ body{
     color: white;
     display: block;
     position: absolute;
-    left: 1520px;
+    left: 150px;
     top: 130px;
     font-size: 25px;
     text-transform: uppercase;
     font-weight: 100;
     font-family: 'Courier New', Courier, monospace;
+}
+.container .card ul{
+    list-style: none;
+    font-size: 20px;
+    padding: 40px;
+}
+.container .card ul li{
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.container .card ul li svg{
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin: 0px 15px 0px 15px;
+    
+}
+
+.container .card ul li svg path{
+    fill: #5bc6a2;
 }
