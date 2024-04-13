@@ -168,16 +168,67 @@ body{
     background-color: #f5f5f5;
     border-radius: 10px;
     width: 300px;
+    height: 28px;
 }
 
 .container .card ul li svg{
     width: 30px;
     height: 30px;
-    float: left;
     margin: 0px 15px 0px 15px;
-    
+    float: left;
 }
 
 .container .card ul li svg path{
-    fill: #5bc6a2;
+    fill: #2b2b2b;
+    margin-bottom: 30px;
+}
+.container .card  .button3{
+    border: 3px solid #5ac439 ;
+    border-radius: 25px;
+    text-align: center;
+    display: inline;
+    position: absolute;
+    left: 115px;
+    bottom: 40px;
+    width: 150px;
+    height: 40px;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 600;
+    background-color: white;
+    color: #5ac439;
+}
+
+.container .card  .button2{
+    border: 3px solid #f4bc41;
+    border-radius: 25px;
+    text-align: center;
+    display: inline;
+    position: absolute;
+    left: 115px;
+    bottom: 40px;
+    width: 150px;
+    height: 40px;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 600;
+    background-color: white;
+    color: #f4bc41;
+}
+
+.container .card  .button1{
+    border: 3px solid #0095ff ;
+    border-radius: 25px;
+    text-align: center;
+    display: inline;
+    position: absolute;
+    left: 115px;
+    bottom: 40px;
+    width: 150px;
+    height: 40px;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 600;
+    background-color: white;
+    color: #0095ff;
 }
